@@ -5,9 +5,9 @@
     "debug.console.fontSize": 16,
     "terminal.integrated.fontSize": 15,
     "editor.glyphMargin": false,
-    "workbench.activityBar.location": "top",
+    "workbench.activityBar.location": "default",
     "files.eol": "\n",
-    "workbench.editor.labelFormat": "short",
+    "workbench.editor.labelFormat": "default",
     "editor.tabSize": 2,
     "explorer.compactFolders": false,
     
