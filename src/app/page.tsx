@@ -1,3 +1,12 @@
-export default function HomePage(){
-  return <h1>Olá de dentro de Home page.tsx</h1>
+import { Header } from "@/components/header";
+
+export default function HomePage() {
+  console.log("Lado server - page")
+  return (
+    <>
+        <Header/>
+    </>
+  );
 }
+
+

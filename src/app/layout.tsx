@@ -10,11 +10,9 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
   return (
     <html
       lang="pt-BR" >
-      <body className="qualquer">
+      <body>
         <header><h1>Header</h1></header>
-
-        <div className="bg-red-500">{children}</div>
-
+        <div>{children}</div>
         <footer><h1>Footer</h1></footer>
       </body>
     </html>
